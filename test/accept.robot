@@ -2,7 +2,7 @@
 Library         Process
 Library         OperatingSystem
 Library         Collections
-Library         create_report
+Library         create_report.py
 *** Test cases ***
 acceptance
       Run Process          cosmic-ray            exec            session_parallel
