@@ -12,4 +12,4 @@ install:
 - pipenv install -e .
 
 script:
-- robot test
+- cd test && robot accept.robot
